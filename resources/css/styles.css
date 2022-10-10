@@ -176,6 +176,24 @@ body {
     background-size: contain;
     background-position: 0 -2em;
   }
+
+  .grid {
+    max-width: 450px;
+  }
+
+  .small-grid,
+  .card-btn {
+    max-width: 354px;
+  }
+
+  .small-grid {
+    padding: .5em 2em; 
+  }
+
+  .card-plan,
+  .card-price {
+    margin-left: 0;
+  }
 }
 
 
