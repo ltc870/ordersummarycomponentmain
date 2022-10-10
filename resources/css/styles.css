@@ -40,6 +40,10 @@ body {
   color: #717fa6;
 }
 
+.card-link {
+  font-size: .8125rem;
+}
+
 .card-btn {
   font-size: .875rem;
   font-weight: 900;
@@ -59,7 +63,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   margin-top: 7em;
-  max-width: 400px;
+  max-width: 327px;
   width: 100%;
 }
 
@@ -103,7 +107,7 @@ body {
   grid-template-rows: auto;
   margin: 0 auto;
   margin-bottom: 2em;
-  padding: .5em 2em;
+  padding: .5em 1em;
   width: 100%;
 }
 
@@ -114,16 +118,18 @@ body {
 
 .card-plan {
   margin-bottom: .25em;
-  margin-right: 2em; 
+  margin-left: 1em; 
 }
 
 .card-price {
   margin-top: 0;
+  margin-left: 1em;
 }
 
 .card-link {
   align-self: center;
   justify-self: right;
+  margin-left: 3em;
 }
 
 .card-link:hover,
